@@ -1,0 +1,50 @@
+h1, h3{
+    text-align: center;
+}
+body{
+    font-family: 'Press Start 2P', cursive;
+    font-size: 1rem;
+    color: yellow;
+    background-color: black;
+}
+.grid{
+  display: flex;
+  flex-wrap: wrap;
+    width: 560px;
+    height: 560px;
+    border: solid black;
+    position: relative;
+    left: 28%;
+}
+.grid div {
+    width: 20px;
+    height: 20px;
+}
+.pac-dot{
+    background-image: url('images/coin\ \(3\).png');
+}
+.wall{
+    background-image: url('images/wall.png');
+}
+.power-pellet{
+    background-color: green;
+    border-radius: 10px;
+}
+.blinky{
+    background-image: url('images/pink.png');
+    border: 2px;
+}
+.pinky{
+    background-image: url('images/pink.png');
+    border: 2px;
+}
+.inky{
+    background-image: url('images/pink.png');
+    border: 2px;
+}
+
+.pac-man{
+    background-image: url('images/pacmann.png');
+    border-radius: 1px;
+
+}

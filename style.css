@@ -1,0 +1,110 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: 'Press Start 2P', cursive;
+    color: yellow;
+    background-color: rgb(37, 37, 37);
+}
+h1,p{
+    text-align: center;
+    font-size: 25px;
+    margin: 1% auto;
+}
+.container{
+display: flex;
+justify-content: center;
+}
+.messageContainer{
+display:flex;
+justify-content: space-between;
+}
+
+.wall, .coin, .ground, .ghost, .pacman{
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+}
+.wall {
+    background-image: url('images/wall.png');
+}
+.coin {
+    background-image: url('images/coin.png');
+}
+.ground {
+    background-image: url('images/bg.png'); 
+}
+.ghost {
+    background-image: url('images/ghost1.png');
+}
+.pacman {
+    background-image: url('images/pacman.png');
+}
+
+.lives{
+    font-size: 25px;
+    color: rgb(240, 212, 135);
+    text-align: center;
+    padding: 2%;
+}
+.hero-score{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+#restart{
+    font-size: 20px;
+    font-family: 'Press Start 2P', cursive;
+    font-weight: lighter;
+    color: yellow;
+    padding: 15px;
+    background: #7b9eff;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    border-radius: 20px;
+    text-decoration: none;
+}
+
+@media (max-width: 700px){
+ .wall, .coin, .ground, .ghost, .pacman{
+        width: 30px;
+        height: 30px;
+    }
+   .pacman{
+    background-image: url('images/pacman30.png');
+    }
+    .coin{
+        background-image: url('images/coin35.png');
+    }
+    .ghost{
+        background-image: url('images/ghost30.png');
+    }
+
+    h1,p{
+        font-size: 20px;
+        margin: 2% auto;
+    }
+}
+
+@media (max-width: 400px){
+    .wall, .coin, .ground, .ghost, .pacman{
+           width: 20px;
+           height: 20px;
+       }
+      .pacman{
+       background-image: url('images/pacman20.png');
+       }
+       .coin{
+           background-image: url('images/coin20.png');
+       }
+       .ghost{
+           background-image: url('images/ghost.png');
+       }
+       h1,p{
+        margin: 3% auto;
+    }
+   }

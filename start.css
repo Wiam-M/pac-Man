@@ -1,0 +1,40 @@
+
+body, html {
+  height: 100%;
+  margin: 0;
+  font-family: 'Press Start 2P', cursive;
+}
+
+.hero-image {
+  background-image: url("images/pacMan.jpg");
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+h1 {
+  text-align: center;
+  font-size: 45px;
+  color: rgb(18, 88, 219);
+}
+
+.click {
+    font-size: 30px;
+    font-family: 'Press Start 2P', cursive;
+    font-weight: lighter;
+    color: #333;
+    padding: 25px 20px;
+    background: #ffd17b;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    border-radius: 20px;
+    box-shadow: 0 6px #efa424;
+    text-decoration: none;
+    text-align: center;
+  
+}
